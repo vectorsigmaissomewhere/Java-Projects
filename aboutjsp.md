@@ -19,3 +19,38 @@
  - pageContext
  - page
  - exception
+
+## JSP Directives
+
+ - JSP page Directives 
+ - JSP include Directives
+ - JSP taglib directives 
+
+## JSP page Directives
+
+ - import
+ - contentType
+ - extends
+ - info
+ - buffer
+ - language
+ - isElonared
+ - isThreadsafe
+ - autoFlush
+ - session
+ - pageEncoding
+ - errorPage
+ - isErrorPage
+
+## JSP include directives
+ - <%@ include file="resourceName" %>
+the work of this is to get content of other file
+
+## JSP Taglib directives 
+ - Defines a tag library
+<%@ taglib uri="" prefix="" %>
+ - <mytag:currentDate/>
+
+## JSP exception
+ - mention in jsp page or 
+ - mention in xml file page that is web.xml

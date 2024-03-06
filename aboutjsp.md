@@ -54,3 +54,35 @@ the work of this is to get content of other file
 ## JSP exception
  - mention in jsp page or 
  - mention in xml file page that is web.xml
+
+## Action Elements
+ - jsp:forward
+
+    <jsp:forward page="welcome.jsp/>
+
+    forwards to another page 
+ - jsp:include
+   
+    include other page 
+
+    <jsp:include page="welcome.jsp/">
+ - JavaBean
+    
+    encapsulates many objects into one object and can be assessible this object from many pages
+  - jsp:useBean
+  
+    first use: access Calculation.java from jsp file
+
+    second use: can be accessible by many other jsp file
+
+    jsp:setProperty and 
+    
+    jsp:getProperty
+
+    <jsp:getProperty property="name" name="u"/><br>
+
+    <jsp:getProperty property="name" name="u" value="<%=name%>"/>
+
+  - Display applet in JSP file
+
+    less useful

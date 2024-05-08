@@ -1,0 +1,30 @@
+// this file stores the image and image description from the user
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Upload Image</title>
+</head>
+<body>
+    <h2>Upload Image</h2>
+    <form action="imageServlet" method="post" enctype="multipart/form-data">
+        Select image to upload:
+        <p>Enter product name</p><br>
+        <input type="text" name="productname" id="productname"><br>
+        <p>Enter product description</p><br>
+        <input type="text" name="productdescription" id="productdescription"><br>
+        <p>Enter product category</p><br>
+        <input type="text" name="productcategory" id="productcategory"><br>
+        <p>Enter product price</p><br>
+        <input type="text" name="productprice" id="productprice"><br>
+        <p>Enter product stock</p><br>
+        <input type="text" name="productstock" id="productstock"><br>
+        <p>Enter product active status</p><br>
+        <input type="text" name="productactive" id="productactive"><br>
+        <input type="file" name="image" id="image"><br>
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
+</body>
+</html>
+
